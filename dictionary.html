@@ -5,10 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dictionary Web Application</title>
     <link rel="stylesheet" href="/up/css/style.css" />
+    <link rel="icon" href="/images/icon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapper">
       <h1>Dictionary App</h1>
+      <div class="input">
+        <input
+          onkeypress="handle(event)"
+          type="text"
+          placeholder="Type the word..."
+          id="input"
+          class="searchField"
+        />
+      </div>
+      <div class="wrapper-result">
+        <h2 class="word">Hello</h2>
+        <p class="phonetics">hə'ləʊ</p>
+        <audio
+          src="//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3"
+          controls
+        ></audio>
+        <p class="word-meaning">Meaning</p>
+        <p class="word-definition">
+          used as a greeting or to begin a phone conversation.
+        </p>
+        <p class="word-meaning">Synonyms</p>
+        <div class="synonyms">
+          <p class="syn">adwd</p>
+          <p class="syn">aferhg</p>
+          <p class="syn">aferhg</p>
+          <p class="syn">aferhg</p>
+          <p class="syn">aferhgaedfewr</p>
+          <p class="syn">adwdaedfewr</p>
+          <p class="syn">aferhgaedfewr</p>
+          <p class="syn">aferhg</p>
+          <p class="syn">aferhg</p>
+          <p class="syn">aferhgaedfewr</p>
+        </div>
+      </div>
     </div>
     <script src="/javascript/script.js"></script>
   </body>

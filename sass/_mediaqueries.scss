@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 20px;
+    height: 60vh;
+
+    h1 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .searchField {
+      width: 100%;
+    }
+
+    &-result {
+      width: 100%;
+    }
+  }
+}
